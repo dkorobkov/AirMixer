@@ -192,6 +192,7 @@ void SetPower(unsigned char power)
 	_delay_ms(1000);
 	wdt_reset();
 	_delay_ms(1000);
+	wdt_reset();
 
 	switch(power)
 	{
